@@ -106,7 +106,7 @@ namespace DotNetCoreKoans.Koans
             Assert.Equal(new string[] {"Hello"}, list.ToArray());
 
             list.AddAfter(list.Find("Hello"), "World");
-            Assert.Equal(FILL_ME_IN, list.ToArray());
+            Assert.Equal(new string[] {"Hello", "World"}, list.ToArray());
         }
 
     }
